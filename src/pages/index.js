@@ -14,7 +14,7 @@ import jsIcon from "../assets/images/article-icons/js-symbol.png"
 /* --------------------- JS Imports --------------------- */
 import CloseIcon from "../components/close-icon.js"
 import useModal from "../components/modal.js"
-import modalDetails from "./modal-details.js"
+import modalDetails from "../components/modal-details.js"
 // modalDetails is an array of objects with the copy text for each modal
 import Header from "../components/header.js"
 import BackgroundHolder from "../components/background-holder.js"
