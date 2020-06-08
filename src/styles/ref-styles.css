@@ -1,0 +1,34 @@
+.main-ref-content-holder {
+  font-size: clamp(9px, calc(2vw + 3vh), 15px);
+  line-height: 1.5;
+  /* color: blue; */
+}
+
+.main-ref-content-holder p {
+}
+
+.ref-page-header {
+  background-color: rgb(64, 64, 64);
+  color: #fff;
+}
+.ref-page-header a {
+  text-decoration: none;
+}
+.ref-page-header a:visited {
+  color: #fff;
+}
+.ref-page-header a:focus {
+  color: rgb(181 235 255);
+}
+.ref-page-header a:hover {
+  color: rgb(181, 235, 255);
+}
+.ref-page-title {
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 2%;
+}
+
+deckgo-highlight-code {
+  margin: 15px 0;
+}
