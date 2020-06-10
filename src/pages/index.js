@@ -44,7 +44,12 @@ function ProjectModal({ modalState, hide, modalContent }) {
     return ReactDOM.createPortal(
       <div className="modal-holder">
         <article className="project-modal-article">
-          <button type="button" className="close-modal-button" onClick={hide}>
+          <button
+            autoFocus
+            type="button"
+            className="close-modal-button"
+            onClick={hide}
+          >
             <CloseIcon />
           </button>
           <div className="img-holder">
@@ -54,7 +59,7 @@ function ProjectModal({ modalState, hide, modalContent }) {
               alt={modalContent.bannerAlt}
             />
             <div className="modal-title-holder">
-              <h2 className="modal-project-title">
+              <h2 tabIndex="-1" className="modal-project-title">
                 {modalContent.projectTitle}
               </h2>
             </div>
@@ -63,11 +68,15 @@ function ProjectModal({ modalState, hide, modalContent }) {
             <ul className="links-holder">
               {modalContent.anchorLinkText ? (
                 <li>
-                  <a href="#">{modalContent.anchorLinkText}</a>
+                  <a target="_blank" href={modalContent.anchorLink}>
+                    {modalContent.anchorLinkText}
+                  </a>
                 </li>
               ) : null}
               <li>
-                <a href="#">{modalContent.githubLinkText}</a>
+                <a target="_blank" href={modalContent.githubLink}>
+                  {modalContent.githubLinkText}
+                </a>
               </li>
             </ul>
             <p className="project-information">

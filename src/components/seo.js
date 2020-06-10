@@ -26,8 +26,8 @@ function SEO({ description, lang, meta, title }) {
       htmlAttributes={{
         lang,
       }}
-      title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      title={title}
       meta={[
         {
           name: `description`,
@@ -62,7 +62,13 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <meta charSet="utf-8" />
+      <title>{title}</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="author" content="Alex Gardner" />
+      <meta name="description" content="Personal Project site and mini-blog" />
+    </Helmet>
   )
 }
 

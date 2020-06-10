@@ -92,11 +92,11 @@ Full Screen BG
 .main-page-blurb {
   width: 40%;
   min-width: 300px;
-  background-color: rgba(50 50 50 / 0.3);
+  background-color: rgba(120 120 120 / 0.3);
   border-radius: 6px;
   margin: 6%;
   font-size: 0.7em;
-  color: rgba(217, 240, 255, 1);
+  color: rgba(0, 83, 207, 1);
 }
 /*  
 ----------------------
@@ -125,7 +125,7 @@ Header Section
 }
 
 .hero-text {
-  font-size: 1.4em;
+  font-size: 1.6em;
 }
 .hero-desc-text {
   font-size: 0.6em;
@@ -254,7 +254,7 @@ Refs Section
   grid-auto-rows: 95px;
   /* grid-template-rows: repeat(6, 95px); */
   padding: 2%;
-  background-color: rgba(213, 220, 227, 1);
+  background-color: rgba(213, 212, 212, 1);
   gap: 15px;
 }
 .simple-refs-holder a {
@@ -273,6 +273,14 @@ Refs Section
   display: flex;
   overflow: hidden;
   box-shadow: -5px -3px 4px #000, 5px 3px 4px #969696;
+}
+.simple-refs-holder a:focus {
+  outline: none;
+  box-shadow: 3px 6px 9px rgb(32, 88, 97);
+}
+.ref-item:hover {
+  outline: none;
+  box-shadow: 3px 6px 9px rgb(32, 88, 97);
 }
 .ref-item > div {
   display: flex;
@@ -385,6 +393,10 @@ Modal
   flex-direction: column;
   align-items: flex-end;
   padding-right: 2%;
+}
+.links-holder a,
+.links-holder a:visited {
+  color: rgb(13, 90, 122);
 }
 .project-information {
   padding: 3%;

@@ -7,9 +7,9 @@ const squareBreathingModal = {
   bannerSrc: squareBreathingBanner,
   bannerAlt: "Square Breathing Banner",
   projectTitle: "Square Breathing",
-  anchorLink: "",
-  anchorLinkText: "Applet",
-  githubLink: "",
+  anchorLink: "https://alex-gardner.github.io/square-breathing",
+  anchorLinkText: "Square Breathing Applet",
+  githubLink: "https://github.com/Alex-Gardner/square-breathing",
   githubLinkText: "Github Repository",
   projectInformation: {
     paragraph1: `Square breathing (also known as box breathing) is a technique used to bring intentional thought to the activity of breathing. 
@@ -27,7 +27,7 @@ const aamCDFModal = {
   projectTitle: "Adobe Audience Manager Customer Data Feeds Parser",
   anchorLink: "",
   anchorLinkText: null,
-  githubLink: "",
+  githubLink: "https://github.com/Alex-Gardner/mysql-stream-write-json",
   githubLinkText: "AAM CDF Parser",
   projectInformation: {
     paragraph1: `Adobe Audience Manager is a data management platform used to deliver a unified view of audiences of your product. 
@@ -40,9 +40,9 @@ const royalThaiModal = {
   bannerSrc: royalThaiBanner,
   bannerAlt: "Royal Thai Banner",
   projectTitle: "Royal Thai Website Redesign",
-  anchorLink: "",
+  anchorLink: "https://alex-gardner.github.io/redesign-royal-thai/",
   anchorLinkText: "Royal Thai",
-  githubLink: "",
+  githubLink: "https://github.com/Alex-Gardner/redesign-royal-thai",
   githubLinkText: "Github Repository",
   projectInformation: {
     paragraph1: `The main site of Royal Thai was originally designed as a lightweight web presence for a local Orlando, FL restaurant. 
@@ -54,9 +54,9 @@ const tennisHelperModal = {
   bannerSrc: tennisHelperBanner,
   bannerAlt: "Tennis Helper Banner",
   projectTitle: "Tennis Helper (Under Construction)",
-  anchorLink: "",
+  anchorLink: "/pages/404.js",
   anchorLinkText: "Tennis Helper",
-  githubLink: "",
+  githubLink: "/pages/404.js",
   githubLinkText: "Github Repository",
   projectInformation: {
     paragraph1: `App Under Construction`,

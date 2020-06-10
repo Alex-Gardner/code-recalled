@@ -44,6 +44,8 @@ Scale-down
   (<a target="_blank" href='https://codepen.io/Alx-Gdnr-Pen'>@Alx-Gdnr-Pen</a>) on <a target="_blank" href='https://codepen.io'>CodePen</a>.
 </iframe>
 
+## Test Side-by-Side Comparisons in Codepen
+
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="Alx-Gdnr-Pen" data-slug-hash="PoZqYJE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Object-Fit Side-by-Side">
   <span>Side-by-Side Comparisons: <a target="_blank" href="https://codepen.io/Alx-Gdnr-Pen/pen/PoZqYJE">
   Object-Fit Side-by-Side</a> by Alex Gardner (<a target="_blank" href="https://codepen.io/Alx-Gdnr-Pen">@Alx-Gdnr-Pen</a>)
