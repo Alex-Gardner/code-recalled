@@ -2,6 +2,7 @@ import squareBreathingBanner from "../assets/images/projects/banners/square-brea
 import aamCDFBanner from "../assets/images/projects/banners/aam-cdf-banner.webp"
 import royalThaiBanner from "../assets/images/projects/banners/royal-thai-banner.webp"
 import tennisHelperBanner from "../assets/images/projects/banners/tennis-helper-net-banner.webp"
+import yankeesAccountingBanner from "../assets/images/projects/banners/yankees-accounting-banner.webp"
 
 const squareBreathingModal = {
   bannerSrc: squareBreathingBanner,
@@ -50,6 +51,22 @@ const royalThaiModal = {
     The site features modern HTML and CSS features.`,
   },
 }
+const yankeesAccountingModal = {
+  bannerSrc: yankeesAccountingBanner,
+  bannerAlt: "Yankees Accounting Banner",
+  projectTitle: "Yankees Accounting Website",
+  anchorLink: "https://alex-gardner.github.io/yankees-accounting-site/",
+  anchorLinkText: "Yankees Accounting Incorporated",
+  githubLink: "https://github.com/Alex-Gardner/yankees-accounting-site",
+  githubLinkText: "Github Repository",
+  projectInformation: {
+    paragraph1: `New web presence custom built for Yankees Accounting, Inc, a New York based accounting firm. The site’s main priorities 
+    are a professional, modern design aesthetic, with accessible type and interactions. The site is built to be responsive across all 
+    screen sizes from phones to large desktop monitors. Features a dark mode interaction built with modern CSS, JS, and HTML features.
+    
+    Site is under construction.`,
+  },
+}
 const tennisHelperModal = {
   bannerSrc: tennisHelperBanner,
   bannerAlt: "Tennis Helper Banner",
@@ -67,6 +84,7 @@ let modalDetails = [
   squareBreathingModal,
   aamCDFModal,
   royalThaiModal,
+  yankeesAccountingModal,
   tennisHelperModal,
 ]
 export default modalDetails

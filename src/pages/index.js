@@ -7,6 +7,7 @@ import squareBreathingUrl from "../assets/images/projects/square-breathing-bg.we
 import aamImageUrl from "../assets/images/projects/aam-cdf-code-img.webp"
 import royalThaiUrl from "../assets/images/projects/rt-button-img.webp"
 import tennisHelperUrl from "../assets/images/projects/tennis-helper-button-img.webp" //!!!!!!!!
+import yankeesAccountingUrl from "../assets/images/projects/yankee-button-image.webp"
 import htmlIcon from "../assets/images/article-icons/html-symbol.png"
 import cssIcon from "../assets/images/article-icons/css-symbol.png"
 import jsIcon from "../assets/images/article-icons/js-symbol.png"
@@ -139,13 +140,22 @@ export default function Home({ data }) {
               associatedModal={modalDetails[2]}
             />
             <ProjectItem
+              projectName="Yankees Accounting Website"
+              toggleModalState={toggleModalState}
+              setModalContent={setModalContent}
+              projectImageURL={yankeesAccountingUrl}
+              imageClass="proj-img-4"
+              projectDesc="proj-desc-4"
+              associatedModal={modalDetails[3]}
+            />
+            <ProjectItem
               projectName="Tennis Helper App"
               toggleModalState={toggleModalState}
               setModalContent={setModalContent}
               projectImageURL={tennisHelperUrl}
-              imageClass="proj-img-4"
-              projectDesc="proj-desc-4"
-              associatedModal={modalDetails[3]}
+              imageClass="proj-img-5"
+              projectDesc="proj-desc-5"
+              associatedModal={modalDetails[4]}
               projectStatus="under-construction"
             />
           </div>
